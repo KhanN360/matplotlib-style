@@ -1,0 +1,61 @@
+axes.prop_cycle : cycler(color=["#000000","#e41a1c","#377eb8","#4daf4a","#984ea3","#ff7f00","#a65628","#f781bf","#999999","#66c2a5"])
+
+# =========================
+# Figure
+# =========================
+figure.figsize : 6.0, 4.0
+figure.dpi : 150
+savefig.dpi : 300
+savefig.bbox : tight
+
+# =========================
+# Fonts
+# =========================
+font.family : serif
+font.size : 12
+
+axes.labelsize : 15
+axes.titlesize : 15
+
+xtick.labelsize : 15
+ytick.labelsize : 15
+
+legend.fontsize : 15
+
+# =========================
+# Lines
+# =========================
+lines.linewidth : 1.5
+lines.markersize : 5
+
+# =========================
+# Axes
+# =========================
+axes.grid : True
+axes.spines.top : True 
+axes.spines.right : True 
+
+grid.alpha : 0.3
+grid.linestyle : --
+
+# =========================
+# LaTeX
+# =========================
+text.usetex : True
+
+text.latex.preamble :\usepackage{amsmath}
+
+
+# =========================
+# Tick direction
+# =========================
+xtick.direction : in
+ytick.direction : in
+
+xtick.top : True
+ytick.right : True
+
+# =========================
+# Legend
+# =========================
+legend.frameon : False
